@@ -396,8 +396,16 @@ void ADC3_scan_start(void)
  * @brief Sorts the data from ADC_samples to a array for each input
  * @note	  The array has the same size as ADC_NUMS = 60
  *****************************************************************************/
+
+//float32_t sample_adc1_real[16];
+//float32_t sample_adc2_imag[16];
+
+
 void MEAS_sort_data(void){
 	for(int i=0;i<ADC_NUMS;i++){
+
+//		sample_adc1_real =(float32_t)(adc_dual_mode_samples[n] & 0x0000FFFF);
+//		sample_adc2_imag = (float32_t)((adc_dual_mode_samples[n] >> 16) & 0x0000FFFF);
 
 		PAD1_samples[i]=ADC_samples[(4*i)];
 		PAD2_samples[i]=ADC_samples[1+((4*i))];

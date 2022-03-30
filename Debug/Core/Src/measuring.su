@@ -15,6 +15,6 @@
 ../Core/Src/measuring.c:326:6:MEAS_CLEAR_buffer_flags	16	static
 ../Core/Src/measuring.c:347:6:ADC3_scan_init	16	static
 ../Core/Src/measuring.c:385:6:ADC3_scan_start	8	static
-../Core/Src/measuring.c:399:6:MEAS_sort_data	16	static
-../Core/Src/measuring.c:426:6:ADC1_IN13_ADC2_IN5_dual_init	24	static
-../Core/Src/measuring.c:457:6:ADC1_IN13_ADC2_IN5_dual_start	8	static
+../Core/Src/measuring.c:404:6:MEAS_sort_data	16	static
+../Core/Src/measuring.c:434:6:ADC1_IN13_ADC2_IN5_dual_init	24	static
+../Core/Src/measuring.c:465:6:ADC1_IN13_ADC2_IN5_dual_start	8	static

@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  0002703f  00000000  00000000  0003b438  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   0001879c  00000000  00000000  00062477  2**0
+ 17 .debug_line   000187a0  00000000  00000000  00062477  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000ded6c  00000000  00000000  0007ac13  2**0
+ 18 .debug_str    000ded6c  00000000  00000000  0007ac17  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  0015997f  2**0
+ 19 .comment      00000050  00000000  00000000  00159983  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00005ab0  00000000  00000000  001599d0  2**2
+ 20 .debug_frame  00005ab0  00000000  00000000  001599d4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -4606,10 +4606,10 @@ void ADC3_scan_start(void)
 
 080026e0 <MEAS_sort_data>:
 
-/** ***************************************************************************
- * @brief Sorts the data from ADC_samples to a array for each input
- * @note	  The array has the same size as ADC_NUMS = 60
- *****************************************************************************/
+//float32_t sample_adc1_real[16];
+//float32_t sample_adc2_imag[16];
+
+
 void MEAS_sort_data(void){
  80026e0:	b480      	push	{r7}
  80026e2:	b083      	sub	sp, #12
@@ -4618,6 +4618,9 @@ void MEAS_sort_data(void){
  80026e6:	2300      	movs	r3, #0
  80026e8:	607b      	str	r3, [r7, #4]
  80026ea:	e02d      	b.n	8002748 <MEAS_sort_data+0x68>
+
+//		sample_adc1_real =(float32_t)(adc_dual_mode_samples[n] & 0x0000FFFF);
+//		sample_adc2_imag = (float32_t)((adc_dual_mode_samples[n] >> 16) & 0x0000FFFF);
 
 		PAD1_samples[i]=ADC_samples[(4*i)];
  80026ec:	687b      	ldr	r3, [r7, #4]
