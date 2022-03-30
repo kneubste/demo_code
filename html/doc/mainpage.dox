@@ -1,0 +1,44 @@
+/**
+@mainpage Demo-Code
+
+This code is for the <b>Electronics-Project Modules</b>
+<b>ET.PM3: Cable-Monitor</b>
+@n in the <b>second year of the electronics engineering curriculum</b>
+at the School of Engineering of the Zurich University of Applied Sciences.
+
+@image html cable_monitor_main.jpg
+
+The template code is written for the evaluation board
+<b>32F429IDISCOVERY (Discovery kit with STM32F429ZI MCU)</b>.
+
+
+Overall Information on the Project
+===
+For the module Electronics Project 3, a sensor board for a Cable-Monitor had to be developed, which allows to measure the electromagnetic and electrostatic field of a mains cable.
+<br>Based on these measurements, the distance, the current through and the angle to the wire or cable can be determined.
+
+The Cable-Monitor has the software functions to measure 4 inputs from 2 pads and 2 coils.
+One can select wire, cable or angle measurement. For each is a different displaying method implemented.
+<br>With the <b>blue</b> push button is a manual shut off possible.
+
+@attention Time was very critical and thus the software is at an elementary stage and far from being perfect. Many things can be improved e.g.: more modularization, better functions and visualization.
+
+
+---
+
+
+---
+
+@author	Hanspeter Hochreutener (hhrt@zhaw.ch)
+@author My-Hanh Dang (dangmyh1@students.zhaw.ch)
+@author Stefan Kneubühl (kneubste@students.zhaw)
+@author Niklaus Schoch (schocnik@students.zhaw.ch)
+
+@date 23.12.2021
+@note  <b>All measurements are very sensor board and location depending. A correct function can therefore not be guaranteed.</b>
+@note   Evalboard revision E (blue PCB) has an inverted y-axis
+        in the touch controller compared to the display.
+        Uncomment or comment the <b>\#define EVAL_REV_E</b> in main.h accordingly.
+
+@bug No known bugs.
+*/

@@ -1,0 +1,5 @@
+<map id="distance_to_cable" name="distance_to_cable">
+<area shape="rect" id="node1" title="find the distance between device and cable" alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$calculations_8c.html#a39bf427413a48d2cc90ec77338582b0f" title="calculate the RMS value" alt="" coords="180,5,231,32"/>
+<area shape="rect" id="node3" href="$calculations_8c.html#ab5761cae48de087da1a910559f0e77f0" title="Calculate the average of the ADC samples." alt="" coords="279,5,345,32"/>
+</map>

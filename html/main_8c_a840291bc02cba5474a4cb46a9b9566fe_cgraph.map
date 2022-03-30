@@ -1,0 +1,27 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Main function." alt="" coords="5,436,56,463"/>
+<area shape="rect" id="node2" href="$measuring_8c.html#a38c81ba00a69eaa9e9e8716cefc6be06" title="Initialize ADC, timer and DMA for sequential acquisition = scan mode." alt="" coords="131,5,245,32"/>
+<area shape="rect" id="node3" href="$measuring_8c.html#aeb8392280f6f2fe674f02d12012e83a6" title="Start DMA, ADC and timer &#160;&#160;pads." alt="" coords="126,56,250,83"/>
+<area shape="rect" id="node4" href="$displayingdata_8c.html#a9020646245c08a84068246fc8bd00f3f" title="Function for displaying the angle data." alt="" coords="109,208,267,235"/>
+<area shape="rect" id="node9" href="$displayingdata_8c.html#aa690670dc82e7de7f76428ee2dca5d40" title="Function for displaying the cable data." alt="" coords="109,157,267,184"/>
+<area shape="rect" id="node12" href="$displayingdata_8c.html#a2544398e5f89415df8fa9a80dd80a7be" title="Function for displaying the wire data." alt="" coords="113,107,263,133"/>
+<area shape="rect" id="node13" href="$main_8c.html#a9506db1724e530dd11bccbdd8968998f" title="Disable the onboard gyroscope." alt="" coords="141,259,235,285"/>
+<area shape="rect" id="node14" href="$menu_8c.html#a38ea5632da7660c1b730a38db7bfc6d1" title="Manual shut off of the device." alt="" coords="124,309,252,336"/>
+<area shape="rect" id="node15" href="$measuring_8c.html#a645930ff74ceaacb90aca99fae865f8f" title="Configure GPIOs in analog mode." alt="" coords="104,360,272,387"/>
+<area shape="rect" id="node16" href="$measuring_8c.html#a18808effb5cd13a519cabd615925430d" title="Sorts the data from ADC_samples to a array for each input." alt="" coords="127,411,249,437"/>
+<area shape="rect" id="node17" href="$measuring_8c.html#a2ace7017c3957ead5cd587fc6fae0290" title="Configure the timer to trigger the ADC(s)" alt="" coords="128,461,248,488"/>
+<area shape="rect" id="node18" href="$menu_8c.html#a88e016ed6bb3eb9cfe66a3009bc6fbcf" title="Check for selection/transition." alt="" coords="107,512,269,539"/>
+<area shape="rect" id="node19" href="$menu_8c.html#a2cbb4c209c599e91da57c0d6cf8f710e" title="Draw the menu onto the display." alt="" coords="141,563,235,589"/>
+<area shape="rect" id="node20" href="$menu_8c.html#a3de77014a7c52cdf6ff1f973eee6f3f6" title="Get menu selection/transition." alt="" coords="115,613,261,640"/>
+<area shape="rect" id="node21" href="$menu_8c.html#a62e02a141652e1f34b11f73547ce6bc2" title="Shows a hint at startup." alt="" coords="144,664,232,691"/>
+<area shape="rect" id="node22" href="$pushbutton_8c.html#a1d6696a09e34d517e04ff82f792baf57" title="Configure interrupt on rising edge for the USER pushbutton." alt="" coords="135,715,241,741"/>
+<area shape="rect" id="node23" href="$pushbutton_8c.html#a6efe94714ab265a5e515c7266d234917" title="Configure the GPIO for the USER pushbutton." alt="" coords="156,765,220,792"/>
+<area shape="rect" id="node24" href="$pushbutton_8c.html#ab920dbc364e7b33bb9186ac45ae1a332" title="Was the pushbutton pressed?" alt="" coords="141,816,235,843"/>
+<area shape="rect" id="node25" href="$main_8c.html#ad554cbf06ce0fa6f92a0c4152b8a4c64" title="System Clock Configuration." alt="" coords="117,867,259,893"/>
+<area shape="rect" id="node5" href="$calculations_8c.html#abebb1cd0012c2fe6644263cece970be8" title="calculate the angle to the cable" alt="" coords="357,233,466,260"/>
+<area shape="rect" id="node8" href="$measuring_8c.html#a0043f3569cf86ad844cab68ee99fa03d" title="Clears buffer and flag &#160;&#160;This function get&#39;s called after the data is displayed &#160;&#160;Only the ADC_sample..." alt="" coords="320,183,503,209"/>
+<area shape="rect" id="node6" href="$calculations_8c.html#a39bf427413a48d2cc90ec77338582b0f" title="calculate the RMS value" alt="" coords="551,132,601,159"/>
+<area shape="rect" id="node7" href="$calculations_8c.html#ab5761cae48de087da1a910559f0e77f0" title="Calculate the average of the ADC samples." alt="" coords="649,132,716,159"/>
+<area shape="rect" id="node10" href="$calculations_8c.html#a055526d0fc86c3f1a6e5343a7c618953" title="calculate the current in a wire or cable" alt="" coords="380,81,443,108"/>
+<area shape="rect" id="node11" href="$calculations_8c.html#a3d1bc57383776cf9d42aa4fb9c8e853f" title="find the distance between device and cable" alt="" coords="348,132,475,159"/>
+</map>

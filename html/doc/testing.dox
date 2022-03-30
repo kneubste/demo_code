@@ -1,0 +1,35 @@
+/**
+@page testing Testing Firmware
+
+
+<h1>Test</h1>
+<table>
+<tr>
+	<th>Module</th><th>Test Conditions</th><th>Expected</th><th>Observed</th><th>Pass/Fail</th><th>Remarks</th>
+</tr>
+<tr>
+	<td>Menu system</td><td>Touch menu item "Wire"</td><td>Switch to state "Wire"</td><td>Switches to "Wire"</td><td>Pass</th><td>Slight deplay between pressing and reaction. Probably not able to change this.</td>
+</tr>
+<tr>
+	<td>ADC with DMA data to ADC_samples array</td><td>fs = 600Hz, N = 60 <br>f = 50Hz, Inputs = 4</td><td>ADC_samples[240] with 240 Values<br>Minimum = 0<br>Maximum = 4095</td><td>12 signal periods<br>Minimum = 5<br> Maximum = 3805</td><td>Pass</th><td>Sinus signal form visible in data points</td>
+</tr>
+<tr>
+	<td>Sorting of data. Data is sequential</td><td>Inputs = 4<br>data arrays = 4</td><td>ADC_samples[240] to 4 arrays[60] for each PAD/COIL<br> </td><td>All values at the right location <br></td><td>Pass</th><td>Sorting works correct</td>
+</tr>
+<tr>
+	<td>Display data for wire </td><td> PAD/COIL arrays with random values in the range 0 to 4095</td><td>Sinus signal</td><td>Plot works fine</td><td>Pass</th><td>Background noise strong</td>
+</tr>
+<tr>
+	<td>Display data angle</td><td>No clear angle value</td><td>No value message and red indicators</td><td>Red signal<br>Error Value</td><td>Pass</th><td></td>
+</tr>
+<tr>
+	<td>Manual shut off</td><td>correct jumper<br>battery power</td><td>LED indication and shut off</td><td>Blinking LED<br>Shut off</td><td>Pass</th><td>Jumper has to be in correct position for function</td>
+</tr>
+</table>
+@n Test date: 23.12.2021
+@n Tester: Stefan Kneubühl (kneubste@students.zhaw.ch)
+
+---
+@author	Stefan Kneubühl
+@date 23.12.2021
+*/

@@ -1,0 +1,16 @@
+digraph "MEAS_show_data_cable"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MEAS_show_data_cable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Function for displaying the cable data."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="distance_to_cable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$calculations_8c.html#a3d1bc57383776cf9d42aa4fb9c8e853f",tooltip="find the distance between device and cable"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RMS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$calculations_8c.html#a39bf427413a48d2cc90ec77338582b0f",tooltip="calculate the RMS value"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="average",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$calculations_8c.html#ab5761cae48de087da1a910559f0e77f0",tooltip="calculate the average of the ADC samples"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MEAS_CLEAR_buffer_flags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$measuring_8c.html#a0043f3569cf86ad844cab68ee99fa03d",tooltip="Clears buffer and flag   This function get's called after the data is displayed   Only the ADC_sample..."];
+}

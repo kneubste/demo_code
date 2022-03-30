@@ -1,0 +1,5 @@
+../Core/Src/calculations.c:72:9:average	24	static
+../Core/Src/calculations.c:91:9:RMS	40	static
+../Core/Src/calculations.c:123:9:distance_to_cable	24	static
+../Core/Src/calculations.c:184:9:angle_to_cable	32	static
+../Core/Src/calculations.c:233:9:current	32	static

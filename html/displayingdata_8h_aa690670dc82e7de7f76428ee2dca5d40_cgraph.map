@@ -1,0 +1,8 @@
+<map id="DISP_show_data_cable" name="DISP_show_data_cable">
+<area shape="rect" id="node1" title="Function for displaying the cable data." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node2" href="$calculations_8c.html#a055526d0fc86c3f1a6e5343a7c618953" title="calculate the current in a wire or cable" alt="" coords="272,29,335,56"/>
+<area shape="rect" id="node5" href="$calculations_8c.html#a3d1bc57383776cf9d42aa4fb9c8e853f" title="find the distance between device and cable" alt="" coords="240,80,367,107"/>
+<area shape="rect" id="node6" href="$measuring_8c.html#a0043f3569cf86ad844cab68ee99fa03d" title="Clears buffer and flag &#160;&#160;This function get&#39;s called after the data is displayed &#160;&#160;Only the ADC_sample..." alt="" coords="212,131,395,157"/>
+<area shape="rect" id="node3" href="$calculations_8c.html#a39bf427413a48d2cc90ec77338582b0f" title="calculate the RMS value" alt="" coords="443,55,493,81"/>
+<area shape="rect" id="node4" href="$calculations_8c.html#ab5761cae48de087da1a910559f0e77f0" title="Calculate the average of the ADC samples." alt="" coords="541,55,608,81"/>
+</map>

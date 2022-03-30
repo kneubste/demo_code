@@ -1,0 +1,5 @@
+<map id="angle_to_cable" name="angle_to_cable">
+<area shape="rect" id="node1" title="calculate the angle to the cable" alt="" coords="311,5,420,32"/>
+<area shape="rect" id="node2" href="$displayingdata_8c.html#a9020646245c08a84068246fc8bd00f3f" title="Function for displaying the angle data." alt="" coords="104,5,263,32"/>
+<area shape="rect" id="node3" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="Main function." alt="" coords="5,5,56,32"/>
+</map>

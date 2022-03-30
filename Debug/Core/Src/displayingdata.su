@@ -1,0 +1,3 @@
+../Core/Src/displayingdata.c:52:6:DISP_show_data_wire	88	static
+../Core/Src/displayingdata.c:171:6:DISP_show_data_cable	88	static
+../Core/Src/displayingdata.c:292:6:DISP_show_data_angle	40	static

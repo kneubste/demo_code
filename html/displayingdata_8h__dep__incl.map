@@ -1,0 +1,7 @@
+<map id="Inc/displayingdata.h" name="Inc/displayingdata.h">
+<area shape="rect" id="node1" title="See displayingdata.c." alt="" coords="225,5,363,32"/>
+<area shape="rect" id="node2" href="$calculations_8c.html" title="Calculations for the measured values." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$displayingdata_8c.html" title="Displaying the measured data on the touch screen." alt="" coords="156,80,296,107"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="Sets up the microcontroller, the clock system and the peripherals." alt="" coords="321,80,406,107"/>
+<area shape="rect" id="node5" href="$measuring_8c.html" title="Measuring voltages with the ADC(s) in different configurations." alt="" coords="430,80,547,107"/>
+</map>

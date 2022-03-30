@@ -1,0 +1,7 @@
+<map id="DISP_show_data_angle" name="DISP_show_data_angle">
+<area shape="rect" id="node1" title="Function for displaying the angle data." alt="" coords="5,31,164,57"/>
+<area shape="rect" id="node2" href="$calculations_8c.html#abebb1cd0012c2fe6644263cece970be8" title="calculate the angle to the cable" alt="" coords="249,5,358,32"/>
+<area shape="rect" id="node5" href="$measuring_8c.html#a0043f3569cf86ad844cab68ee99fa03d" title="Clears buffer and flag &#160;&#160;This function get&#39;s called after the data is displayed &#160;&#160;Only the ADC_sample..." alt="" coords="212,56,395,83"/>
+<area shape="rect" id="node3" href="$calculations_8c.html#a39bf427413a48d2cc90ec77338582b0f" title="calculate the RMS value" alt="" coords="443,5,493,32"/>
+<area shape="rect" id="node4" href="$calculations_8c.html#ab5761cae48de087da1a910559f0e77f0" title="Calculate the average of the ADC samples." alt="" coords="541,5,608,32"/>
+</map>

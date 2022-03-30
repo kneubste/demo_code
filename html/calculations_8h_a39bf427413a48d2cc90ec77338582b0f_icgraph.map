@@ -1,0 +1,10 @@
+<map id="RMS" name="RMS">
+<area shape="rect" id="node1" title="calculate the RMS value" alt="" coords="485,56,536,83"/>
+<area shape="rect" id="node2" href="$calculations_8c.html#abebb1cd0012c2fe6644263cece970be8" title="calculate the angle to the cable" alt="" coords="319,5,429,32"/>
+<area shape="rect" id="node5" href="$calculations_8c.html#a055526d0fc86c3f1a6e5343a7c618953" title="calculate the current in a wire or cable" alt="" coords="343,131,405,157"/>
+<area shape="rect" id="node8" href="$calculations_8c.html#a3d1bc57383776cf9d42aa4fb9c8e853f" title="find the distance between device and cable" alt="" coords="311,56,437,83"/>
+<area shape="rect" id="node3" href="$displayingdata_8c.html#a9020646245c08a84068246fc8bd00f3f" title="Function for displaying the angle data." alt="" coords="104,5,263,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="Main function." alt="" coords="5,56,56,83"/>
+<area shape="rect" id="node6" href="$displayingdata_8c.html#aa690670dc82e7de7f76428ee2dca5d40" title="Function for displaying the cable data." alt="" coords="104,107,263,133"/>
+<area shape="rect" id="node7" href="$displayingdata_8c.html#a2544398e5f89415df8fa9a80dd80a7be" title="Function for displaying the wire data." alt="" coords="108,56,259,83"/>
+</map>

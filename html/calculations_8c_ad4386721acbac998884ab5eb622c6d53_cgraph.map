@@ -1,0 +1,5 @@
+<map id="angle_to_cable" name="angle_to_cable">
+<area shape="rect" id="node1" title="calculate the angle to the cable" alt="" coords="5,5,115,32"/>
+<area shape="rect" id="node2" href="$calculations_8c.html#a39bf427413a48d2cc90ec77338582b0f" title="calculate the RMS value" alt="" coords="163,5,213,32"/>
+<area shape="rect" id="node3" href="$calculations_8c.html#ab5761cae48de087da1a910559f0e77f0" title="Calculate the average of the ADC samples." alt="" coords="261,5,328,32"/>
+</map>
