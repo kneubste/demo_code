@@ -1,3 +1,4 @@
+"./Core/Src/arm_cfft_init_f32.o"
 "./Core/Src/calculations.o"
 "./Core/Src/displayingdata.o"
 "./Core/Src/doppler.o"
