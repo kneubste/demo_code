@@ -45,5 +45,6 @@ Drivers/BSP/Components/stmpe811 \
 Drivers/BSP/Components/ts3510 \
 Drivers/BSP/Components/wm8994 \
 Drivers/BSP/STM32F429I-Discovery \
+Drivers/CMSIS/DSP/Source \
 Drivers/STM32F4xx_HAL_Driver/Src \
 

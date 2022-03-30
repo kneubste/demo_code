@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 ../Drivers/CMSIS/Lib/GCC\libarm_cortexM4lf_math.a(arm_const_structs.o)
-                              ./Core/Src/arm_cfft_init_f32.o (arm_cfft_sR_f32_len4096)
+                              ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o (arm_cfft_sR_f32_len4096)
 ../Drivers/CMSIS/Lib/GCC\libarm_cortexM4lf_math.a(arm_common_tables.o)
                               ../Drivers/CMSIS/Lib/GCC\libarm_cortexM4lf_math.a(arm_const_structs.o) (twiddleCoef_rfft_4096)
 ../Drivers/CMSIS/Lib/GCC\libarm_cortexM4lf_math.a(arm_rfft_init_q31.o)
@@ -87,155 +87,6 @@ Discarded input sections
  .ARM.exidx     0x0000000000000000       0x10 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1c c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .group         0x0000000000000000        0xc ./Core/Src/arm_cfft_init_f32.o
- .text          0x0000000000000000        0x0 ./Core/Src/arm_cfft_init_f32.o
- .data          0x0000000000000000        0x0 ./Core/Src/arm_cfft_init_f32.o
- .bss           0x0000000000000000        0x0 ./Core/Src/arm_cfft_init_f32.o
- .text.arm_cfft_init_f32
-                0x0000000000000000      0x1a4 ./Core/Src/arm_cfft_init_f32.o
- .debug_info    0x0000000000000000      0x21f ./Core/Src/arm_cfft_init_f32.o
- .debug_abbrev  0x0000000000000000      0x104 ./Core/Src/arm_cfft_init_f32.o
- .debug_aranges
-                0x0000000000000000       0x20 ./Core/Src/arm_cfft_init_f32.o
- .debug_ranges  0x0000000000000000       0x10 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x343 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0xa7e ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x28 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x8e ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x51 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x103 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x6a ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x1df ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0xd9 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000     0x102d ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x11f ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000    0x17f69 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x43 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x1bf ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000     0x36c9 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x174 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x5a ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0xca5 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x9fe ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x117 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x157 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x27 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x287 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x5f ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x236 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x20f ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x132 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x41d ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x582 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x1b5 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0xd6 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x198 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0xd6 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x11a ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0xe2 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x89 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x225 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x21e ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x68 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x134 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x12 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x12 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x52 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x1e ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x3c ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x43 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x58 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x71 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x12a ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x341 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x35 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x20 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000      0x19b ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0xd6 ./Core/Src/arm_cfft_init_f32.o
- .debug_macro   0x0000000000000000       0x76 ./Core/Src/arm_cfft_init_f32.o
- .debug_line    0x0000000000000000      0x926 ./Core/Src/arm_cfft_init_f32.o
- .debug_str     0x0000000000000000    0xd5976 ./Core/Src/arm_cfft_init_f32.o
- .comment       0x0000000000000000       0x51 ./Core/Src/arm_cfft_init_f32.o
- .debug_frame   0x0000000000000000       0x38 ./Core/Src/arm_cfft_init_f32.o
- .ARM.attributes
-                0x0000000000000000       0x34 ./Core/Src/arm_cfft_init_f32.o
  .group         0x0000000000000000        0xc ./Core/Src/calculations.o
  .group         0x0000000000000000        0xc ./Core/Src/calculations.o
  .group         0x0000000000000000        0xc ./Core/Src/calculations.o
@@ -330,60 +181,6 @@ Discarded input sections
  .bss.avg       0x0000000000000000        0x4 ./Core/Src/calculations.o
  .bss.CALC_degree_center
                 0x0000000000000000        0x1 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0xa7e ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x1e ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x3c ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x341 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x16 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x43 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x10 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x58 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x71 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x12a ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x6a ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x19b ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x28 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x103 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x1df ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0xd9 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000     0x102d ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x11f ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000    0x17f69 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x43 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x1bf ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000     0x36c9 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0xca5 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x9fe ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x117 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x157 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x27 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x287 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x5f ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x236 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x20f ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x132 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x41d ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x582 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x1b5 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0xd6 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x198 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0xd6 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x11a ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0xe2 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x89 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x225 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x21e ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000       0x68 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000000      0x134 ./Core/Src/calculations.o
  .group         0x0000000000000000        0xc ./Core/Src/displayingdata.o
  .group         0x0000000000000000        0xc ./Core/Src/displayingdata.o
  .group         0x0000000000000000        0xc ./Core/Src/displayingdata.o
@@ -685,8 +482,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x2e ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x28 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000000000       0x8e ./Core/Src/main.o
- .debug_macro   0x0000000000000000       0x51 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x103 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x6a ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x1df ./Core/Src/main.o
@@ -699,8 +494,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x43 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x1bf ./Core/Src/main.o
  .debug_macro   0x0000000000000000     0x36c9 ./Core/Src/main.o
- .debug_macro   0x0000000000000000      0x174 ./Core/Src/main.o
- .debug_macro   0x0000000000000000       0x5a ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0xca5 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x9fe ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x117 ./Core/Src/main.o
@@ -735,12 +528,10 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000000000       0x52 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x1e ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x3c ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x34 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
- .debug_macro   0x0000000000000000       0x35 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x341 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x10 ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x16 ./Core/Src/main.o
@@ -3814,6 +3605,155 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x25f ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
  .debug_macro   0x0000000000000000      0x255 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
  .debug_macro   0x0000000000000000       0x1c ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .group         0x0000000000000000        0xc ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .text          0x0000000000000000        0x0 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .data          0x0000000000000000        0x0 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .bss           0x0000000000000000        0x0 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .text.arm_cfft_init_f32
+                0x0000000000000000      0x1a4 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_info    0x0000000000000000      0x21f ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_abbrev  0x0000000000000000      0x104 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_aranges
+                0x0000000000000000       0x20 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_ranges  0x0000000000000000       0x10 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x343 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0xa7e ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x28 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x8e ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x51 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x103 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x6a ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x1df ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0xd9 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000     0x102d ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x11f ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000    0x17f69 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x43 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x1bf ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000     0x36c9 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x174 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x5a ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0xca5 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x9fe ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x117 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x157 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x27 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x287 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x5f ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x236 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x20f ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x132 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x41d ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x2e ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x582 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x1b5 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x22 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x198 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x11a ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0xe2 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x89 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x225 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x21e ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x68 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x134 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x12 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x12 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x52 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x1e ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x3c ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x16 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x43 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x34 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x58 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x71 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x1c ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x12a ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x341 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x10 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x35 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x20 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000      0x19b ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0xd6 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_macro   0x0000000000000000       0x76 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_line    0x0000000000000000      0x936 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_str     0x0000000000000000    0xd5986 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .comment       0x0000000000000000       0x51 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .debug_frame   0x0000000000000000       0x38 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
  .group         0x0000000000000000        0xc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .group         0x0000000000000000        0xc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .group         0x0000000000000000        0xc ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
@@ -7933,7 +7873,6 @@ Linker script and memory map
 LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
 LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
-LOAD ./Core/Src/arm_cfft_init_f32.o
 LOAD ./Core/Src/calculations.o
 LOAD ./Core/Src/displayingdata.o
 LOAD ./Core/Src/doppler.o
@@ -7975,6 +7914,7 @@ LOAD ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.o
 LOAD ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
 LOAD ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.o
 LOAD ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
+LOAD ./Drivers/CMSIS/DSP/Source/arm_cfft_init_f32.o
 LOAD ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
 LOAD ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
 LOAD ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o
@@ -8847,87 +8787,87 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
 .iplt           0x000000000800a0b8        0x0
  .iplt          0x000000000800a0b8        0x0 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x000000000800a0b8     0x3bac
+.rodata         0x000000000800a0b8     0x3ba0
                 0x000000000800a0b8                . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x000000000800a0b8       0x9d ./Core/Src/displayingdata.o
  *fill*         0x000000000800a155        0x3 
- .rodata        0x000000000800a158       0xcd ./Core/Src/menu.o
+ .rodata        0x000000000800a158       0xc1 ./Core/Src/menu.o
  *(.rodata*)
- *fill*         0x000000000800a225        0x3 
+ *fill*         0x000000000800a219        0x3 
  .rodata.AHBPrescTable
-                0x000000000800a228       0x10 ./Core/Src/system_stm32f4xx.o
-                0x000000000800a228                AHBPrescTable
+                0x000000000800a21c       0x10 ./Core/Src/system_stm32f4xx.o
+                0x000000000800a21c                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000800a238        0x8 ./Core/Src/system_stm32f4xx.o
-                0x000000000800a238                APBPrescTable
+                0x000000000800a22c        0x8 ./Core/Src/system_stm32f4xx.o
+                0x000000000800a22c                APBPrescTable
  .rodata.GPIO_PIN
-                0x000000000800a240        0x4 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.o
-                0x000000000800a240                GPIO_PIN
+                0x000000000800a234        0x4 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.o
+                0x000000000800a234                GPIO_PIN
  .rodata.Font24_Table
-                0x000000000800a244     0x1ab8 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
-                0x000000000800a244                Font24_Table
+                0x000000000800a238     0x1ab8 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
+                0x000000000800a238                Font24_Table
  .rodata.Font20_Table
-                0x000000000800bcfc      0xed8 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
-                0x000000000800bcfc                Font20_Table
+                0x000000000800bcf0      0xed8 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
+                0x000000000800bcf0                Font20_Table
  .rodata.Font16_Table
-                0x000000000800cbd4      0xbe0 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
-                0x000000000800cbd4                Font16_Table
+                0x000000000800cbc8      0xbe0 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
+                0x000000000800cbc8                Font16_Table
  .rodata.Font12_Table
-                0x000000000800d7b4      0x474 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
-                0x000000000800d7b4                Font12_Table
+                0x000000000800d7a8      0x474 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
+                0x000000000800d7a8                Font12_Table
  .rodata.flagBitshiftOffset.0
-                0x000000000800dc28        0x8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+                0x000000000800dc1c        0x8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
  .rodata._svfprintf_r.str1.1
-                0x000000000800dc30       0x11 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000000800dc24       0x11 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000000800dc41       0x22 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x000000000800dc64                . = ALIGN (0x4)
- *fill*         0x000000000800dc63        0x1 
+                0x000000000800dc35       0x22 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000000800dc58                . = ALIGN (0x4)
+ *fill*         0x000000000800dc57        0x1 
 
-.ARM.extab      0x000000000800dc64        0x0
-                0x000000000800dc64                . = ALIGN (0x4)
+.ARM.extab      0x000000000800dc58        0x0
+                0x000000000800dc58                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800dc64                . = ALIGN (0x4)
+                0x000000000800dc58                . = ALIGN (0x4)
 
-.ARM            0x000000000800dc64        0x8
-                0x000000000800dc64                . = ALIGN (0x4)
-                0x000000000800dc64                __exidx_start = .
+.ARM            0x000000000800dc58        0x8
+                0x000000000800dc58                . = ALIGN (0x4)
+                0x000000000800dc58                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800dc64        0x8 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
-                0x000000000800dc6c                __exidx_end = .
-                0x000000000800dc6c                . = ALIGN (0x4)
+ .ARM.exidx     0x000000000800dc58        0x8 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+                0x000000000800dc60                __exidx_end = .
+                0x000000000800dc60                . = ALIGN (0x4)
 
-.rel.dyn        0x000000000800dc6c        0x0
- .rel.iplt      0x000000000800dc6c        0x0 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000800dc60        0x0
+ .rel.iplt      0x000000000800dc60        0x0 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x000000000800dc6c        0x0
-                0x000000000800dc6c                . = ALIGN (0x4)
-                0x000000000800dc6c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800dc60        0x0
+                0x000000000800dc60                . = ALIGN (0x4)
+                0x000000000800dc60                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800dc6c                PROVIDE (__preinit_array_end = .)
-                0x000000000800dc6c                . = ALIGN (0x4)
+                0x000000000800dc60                PROVIDE (__preinit_array_end = .)
+                0x000000000800dc60                . = ALIGN (0x4)
 
-.init_array     0x000000000800dc6c        0x4
-                0x000000000800dc6c                . = ALIGN (0x4)
-                0x000000000800dc6c                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800dc60        0x4
+                0x000000000800dc60                . = ALIGN (0x4)
+                0x000000000800dc60                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800dc6c        0x4 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x000000000800dc70                PROVIDE (__init_array_end = .)
-                0x000000000800dc70                . = ALIGN (0x4)
+ .init_array    0x000000000800dc60        0x4 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000000800dc64                PROVIDE (__init_array_end = .)
+                0x000000000800dc64                . = ALIGN (0x4)
 
-.fini_array     0x000000000800dc70        0x4
-                0x000000000800dc70                . = ALIGN (0x4)
+.fini_array     0x000000000800dc64        0x4
+                0x000000000800dc64                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800dc70        0x4 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x000000000800dc64        0x4 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800dc74                . = ALIGN (0x4)
-                0x000000000800dc74                _sidata = LOADADDR (.data)
+                0x000000000800dc68                . = ALIGN (0x4)
+                0x000000000800dc68                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x4a8 load address 0x000000000800dc74
+.data           0x0000000020000000      0x4a8 load address 0x000000000800dc68
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -8989,11 +8929,11 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x00000000200004a8                . = ALIGN (0x4)
                 0x00000000200004a8                _edata = .
 
-.igot.plt       0x00000000200004a8        0x0 load address 0x000000000800e11c
+.igot.plt       0x00000000200004a8        0x0 load address 0x000000000800e110
  .igot.plt      0x00000000200004a8        0x0 c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x00000000200004a8                . = ALIGN (0x4)
 
-.bss            0x00000000200004a8      0xaa8 load address 0x000000000800e11c
+.bss            0x00000000200004a8      0xaa8 load address 0x000000000800e110
                 0x00000000200004a8                _sbss = .
                 0x00000000200004a8                __bss_start__ = _sbss
  *(.bss)
@@ -9120,7 +9060,7 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000020000f50                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020000f50      0x600 load address 0x000000000800e11c
+                0x0000000020000f50      0x600 load address 0x000000000800e110
                 0x0000000020000f50                . = ALIGN (0x8)
                 0x0000000020000f50                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
@@ -9405,67 +9345,127 @@ LOAD c:/st/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_ranges  0x0000000000001008      0x1e0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
  .debug_ranges  0x00000000000011e8       0xe0 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.o
 
-.debug_macro    0x0000000000000000     0x533b
+.debug_macro    0x0000000000000000    0x2703f
  .debug_macro   0x0000000000000000      0x43c ./Core/Src/calculations.o
- .debug_macro   0x000000000000043c       0x4c ./Core/Src/calculations.o
- .debug_macro   0x0000000000000488       0x94 ./Core/Src/calculations.o
- .debug_macro   0x000000000000051c       0x16 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000532       0x57 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000589       0x97 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000620       0xfd ./Core/Src/calculations.o
- .debug_macro   0x000000000000071d       0x10 ./Core/Src/calculations.o
- .debug_macro   0x000000000000072d       0x10 ./Core/Src/calculations.o
- .debug_macro   0x000000000000073d       0x1c ./Core/Src/calculations.o
- .debug_macro   0x0000000000000759       0x52 ./Core/Src/calculations.o
- .debug_macro   0x00000000000007ab       0x22 ./Core/Src/calculations.o
- .debug_macro   0x00000000000007cd       0x10 ./Core/Src/calculations.o
- .debug_macro   0x00000000000007dd       0x52 ./Core/Src/calculations.o
- .debug_macro   0x000000000000082f       0xd5 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000904       0x1c ./Core/Src/calculations.o
- .debug_macro   0x0000000000000920       0x3d ./Core/Src/calculations.o
- .debug_macro   0x000000000000095d       0x16 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000973      0x145 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000ab8       0x54 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000b0c      0x265 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000d71       0xb0 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000e21       0x10 ./Core/Src/calculations.o
- .debug_macro   0x0000000000000e31      0x26d ./Core/Src/calculations.o
- .debug_macro   0x000000000000109e      0x121 ./Core/Src/calculations.o
- .debug_macro   0x00000000000011bf      0x255 ./Core/Src/calculations.o
- .debug_macro   0x0000000000001414       0x1c ./Core/Src/calculations.o
- .debug_macro   0x0000000000001430       0x22 ./Core/Src/calculations.o
- .debug_macro   0x0000000000001452       0x22 ./Core/Src/calculations.o
- .debug_macro   0x0000000000001474      0x432 ./Core/Src/displayingdata.o
- .debug_macro   0x00000000000018a6       0x1c ./Core/Src/displayingdata.o
- .debug_macro   0x00000000000018c2      0x43b ./Core/Src/main.o
- .debug_macro   0x0000000000001cfd       0x10 ./Core/Src/main.o
- .debug_macro   0x0000000000001d0d       0x10 ./Core/Src/main.o
- .debug_macro   0x0000000000001d1d      0x443 ./Core/Src/measuring.o
- .debug_macro   0x0000000000002160      0x2c4 ./Core/Src/menu.o
- .debug_macro   0x0000000000002424      0x23d ./Core/Src/pushbutton.o
- .debug_macro   0x0000000000002661      0x22b ./Core/Src/stm32f4xx_it.o
- .debug_macro   0x000000000000288c      0x227 ./Core/Src/system_stm32f4xx.o
- .debug_macro   0x0000000000002ab3       0x7c ./Drivers/BSP/Components/ili9341/ili9341.o
- .debug_macro   0x0000000000002b2f       0x8c ./Drivers/BSP/Components/stmpe811/stmpe811.o
- .debug_macro   0x0000000000002bbb      0x24e ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.o
- .debug_macro   0x0000000000002e09      0x25f ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.o
- .debug_macro   0x0000000000003068      0x294 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
- .debug_macro   0x00000000000032fc      0x23f ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.o
- .debug_macro   0x000000000000353b       0xaa ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.o
- .debug_macro   0x00000000000035e5      0x26b ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
- .debug_macro   0x0000000000003850       0x40 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
- .debug_macro   0x0000000000003890      0x281 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_macro   0x0000000000003b11      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_macro   0x0000000000003d32      0x227 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_macro   0x0000000000003f59      0x230 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.o
- .debug_macro   0x0000000000004189      0x257 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_macro   0x00000000000043e0      0x261 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o
- .debug_macro   0x0000000000004641      0x222 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.o
- .debug_macro   0x0000000000004863      0x245 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_macro   0x0000000000004aa8      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_macro   0x0000000000004cc9      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.o
- .debug_macro   0x0000000000004eea      0x230 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
- .debug_macro   0x000000000000511a      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.o
+ .debug_macro   0x000000000000043c      0xa7e ./Core/Src/calculations.o
+ .debug_macro   0x0000000000000eba       0x22 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000000edc       0x4c ./Core/Src/calculations.o
+ .debug_macro   0x0000000000000f28       0x1e ./Core/Src/calculations.o
+ .debug_macro   0x0000000000000f46       0x94 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000000fda       0x3c ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001016       0x34 ./Core/Src/calculations.o
+ .debug_macro   0x000000000000104a       0x16 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001060       0x57 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000010b7       0x97 ./Core/Src/calculations.o
+ .debug_macro   0x000000000000114e      0x341 ./Core/Src/calculations.o
+ .debug_macro   0x000000000000148f       0xfd ./Core/Src/calculations.o
+ .debug_macro   0x000000000000158c       0x10 ./Core/Src/calculations.o
+ .debug_macro   0x000000000000159c       0x16 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000015b2       0x43 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000015f5       0x34 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001629       0x10 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001639       0x58 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001691       0x71 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001702       0x1c ./Core/Src/calculations.o
+ .debug_macro   0x000000000000171e      0x12a ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001848       0x10 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001858       0x6a ./Core/Src/calculations.o
+ .debug_macro   0x00000000000018c2       0x1c ./Core/Src/calculations.o
+ .debug_macro   0x00000000000018de       0x52 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001930       0x22 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001952       0x10 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001962       0x52 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000019b4       0xd5 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001a89       0x1c ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001aa5       0x3d ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001ae2       0x16 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001af8      0x145 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001c3d      0x19b ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001dd8       0x2e ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001e06       0x28 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001e2e      0x103 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000001f31      0x1df ./Core/Src/calculations.o
+ .debug_macro   0x0000000000002110       0x1c ./Core/Src/calculations.o
+ .debug_macro   0x000000000000212c       0x22 ./Core/Src/calculations.o
+ .debug_macro   0x000000000000214e       0xd9 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000002227     0x102d ./Core/Src/calculations.o
+ .debug_macro   0x0000000000003254      0x11f ./Core/Src/calculations.o
+ .debug_macro   0x0000000000003373    0x17f69 ./Core/Src/calculations.o
+ .debug_macro   0x000000000001b2dc       0x43 ./Core/Src/calculations.o
+ .debug_macro   0x000000000001b31f      0x1bf ./Core/Src/calculations.o
+ .debug_macro   0x000000000001b4de     0x36c9 ./Core/Src/calculations.o
+ .debug_macro   0x000000000001eba7       0x54 ./Core/Src/calculations.o
+ .debug_macro   0x000000000001ebfb      0xca5 ./Core/Src/calculations.o
+ .debug_macro   0x000000000001f8a0      0x9fe ./Core/Src/calculations.o
+ .debug_macro   0x000000000002029e      0x117 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000203b5      0x157 ./Core/Src/calculations.o
+ .debug_macro   0x000000000002050c       0x27 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000020533      0x287 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000207ba       0x5f ./Core/Src/calculations.o
+ .debug_macro   0x0000000000020819      0x236 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000020a4f      0x20f ./Core/Src/calculations.o
+ .debug_macro   0x0000000000020c5e      0x132 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000020d90      0x41d ./Core/Src/calculations.o
+ .debug_macro   0x00000000000211ad       0x2e ./Core/Src/calculations.o
+ .debug_macro   0x00000000000211db      0x582 ./Core/Src/calculations.o
+ .debug_macro   0x000000000002175d      0x1b5 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021912       0x22 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021934       0xd6 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021a0a      0x198 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021ba2       0xd6 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021c78      0x11a ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021d92       0xe2 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021e74       0x89 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000021efd      0x225 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022122      0x21e ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022340       0x68 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000223a8      0x134 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000224dc      0x265 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022741       0xb0 ./Core/Src/calculations.o
+ .debug_macro   0x00000000000227f1       0x10 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022801      0x26d ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022a6e      0x121 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022b8f      0x255 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022de4       0x1c ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022e00       0x22 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022e22       0x22 ./Core/Src/calculations.o
+ .debug_macro   0x0000000000022e44      0x432 ./Core/Src/displayingdata.o
+ .debug_macro   0x0000000000023276       0x1c ./Core/Src/displayingdata.o
+ .debug_macro   0x0000000000023292      0x43b ./Core/Src/main.o
+ .debug_macro   0x00000000000236cd       0x8e ./Core/Src/main.o
+ .debug_macro   0x000000000002375b       0x51 ./Core/Src/main.o
+ .debug_macro   0x00000000000237ac      0x174 ./Core/Src/main.o
+ .debug_macro   0x0000000000023920       0x5a ./Core/Src/main.o
+ .debug_macro   0x000000000002397a       0x10 ./Core/Src/main.o
+ .debug_macro   0x000000000002398a       0x10 ./Core/Src/main.o
+ .debug_macro   0x000000000002399a       0x52 ./Core/Src/main.o
+ .debug_macro   0x00000000000239ec       0x35 ./Core/Src/main.o
+ .debug_macro   0x0000000000023a21      0x443 ./Core/Src/measuring.o
+ .debug_macro   0x0000000000023e64      0x2c4 ./Core/Src/menu.o
+ .debug_macro   0x0000000000024128      0x23d ./Core/Src/pushbutton.o
+ .debug_macro   0x0000000000024365      0x22b ./Core/Src/stm32f4xx_it.o
+ .debug_macro   0x0000000000024590      0x227 ./Core/Src/system_stm32f4xx.o
+ .debug_macro   0x00000000000247b7       0x7c ./Drivers/BSP/Components/ili9341/ili9341.o
+ .debug_macro   0x0000000000024833       0x8c ./Drivers/BSP/Components/stmpe811/stmpe811.o
+ .debug_macro   0x00000000000248bf      0x24e ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.o
+ .debug_macro   0x0000000000024b0d      0x25f ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.o
+ .debug_macro   0x0000000000024d6c      0x294 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.o
+ .debug_macro   0x0000000000025000      0x23f ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.o
+ .debug_macro   0x000000000002523f       0xaa ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.o
+ .debug_macro   0x00000000000252e9      0x26b ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
+ .debug_macro   0x0000000000025554       0x40 ./Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.o
+ .debug_macro   0x0000000000025594      0x281 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_macro   0x0000000000025815      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_macro   0x0000000000025a36      0x227 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_macro   0x0000000000025c5d      0x230 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.o
+ .debug_macro   0x0000000000025e8d      0x257 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_macro   0x00000000000260e4      0x261 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o
+ .debug_macro   0x0000000000026345      0x222 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.o
+ .debug_macro   0x0000000000026567      0x245 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_macro   0x00000000000267ac      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_macro   0x00000000000269cd      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.o
+ .debug_macro   0x0000000000026bee      0x230 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_macro   0x0000000000026e1e      0x221 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.o
 
 .debug_line     0x0000000000000000    0x1879c
  .debug_line    0x0000000000000000      0xd73 ./Core/Src/calculations.o

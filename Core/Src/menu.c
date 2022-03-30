@@ -97,16 +97,16 @@ void MENU_hint(void)
 	BSP_LCD_FillCircle(10,124,8);
 	BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
 	BSP_LCD_SetFont(&Font24);
-	BSP_LCD_DisplayStringAt(0,10, (uint8_t *)"Cable-Monitor", CENTER_MODE);
+	BSP_LCD_DisplayStringAt(0,10, (uint8_t *)"RADAR-Monitor", CENTER_MODE);
 	BSP_LCD_SetFont(&Font12);
 	BSP_LCD_DisplayStringAt(0, 60, (uint8_t *)"Touch a menu item", CENTER_MODE);
 	BSP_LCD_DisplayStringAt(0, 80, (uint8_t *)"to start a measurement", CENTER_MODE);
 	BSP_LCD_DisplayStringAt(30, 120, (uint8_t *)"BLUE  pushbutton to SHUT OFF", LEFT_MODE);
 	BSP_LCD_DisplayStringAt(30, 150, (uint8_t *)"BLACK pushbutton to RESET", LEFT_MODE);
 	BSP_LCD_FillCircle(10,154,8);
-	BSP_LCD_DisplayStringAt(0, 190, (uint8_t *)"Version 23.12.2021", CENTER_MODE);
-	BSP_LCD_DisplayStringAt(0, 210, (uint8_t *)"ETPM3 Project | ET20a", CENTER_MODE);
-	BSP_LCD_DisplayStringAt(0, 230, (uint8_t *)"dangmyh | kneubste | schocnik", CENTER_MODE);
+	BSP_LCD_DisplayStringAt(0, 190, (uint8_t *)"Version 30.03.2022", CENTER_MODE);
+	BSP_LCD_DisplayStringAt(0, 210, (uint8_t *)"ETPM4 Project | ET20a", CENTER_MODE);
+	BSP_LCD_DisplayStringAt(0, 230, (uint8_t *)"kneubste | schocnik", CENTER_MODE);
 }
 
 
