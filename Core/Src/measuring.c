@@ -405,3 +405,65 @@ void MEAS_sort_data(void){
 		COIL2_samples[i]=ADC_samples[3+(4*i)];
 	}
 }
+
+
+
+/** ***************************************************************************
+ * @brief Initialize ADCs, timer and DMA for simultaneous dual ADC acquisition
+ *
+ * Uses ADC1 and ADC2 in dual mode and DMA2_Stream4 Channel0
+ * @n The ADC1 trigger is set to TIM2 TRGO event
+ * @n ADC1 is the master and simultaneously triggers ADC2.
+ * @n Both converted data from ADC1 and ADC2 are packed into a 32-bit register
+ * in this way: <b> ADC_CDR[31:0] = ADC2_DR[15:0] | ADC1_DR[15:0] </b>
+ * and are transfered with the DMA in one single step.
+ * @n The ADC1 triggers the DMA2_Stream4 to transfer the new data directly
+ * to memory without CPU intervention.
+ * @n The DMA triggers the transfer complete interrupt when all data is ready.
+ * @n The input used with ADC1 is ADC123_IN13 = GPIO PC3
+ * @n The input used with ADC2 is ADC12_IN5 = GPIO PA5
+ *****************************************************************************/
+void ADC1_IN13_ADC2_IN5_dual_init(void)
+{
+	MEAS_input_count = 2;				// Only 1 input is converted
+	__HAL_RCC_ADC1_CLK_ENABLE();		// Enable Clock for ADC1
+	__HAL_RCC_ADC2_CLK_ENABLE();		// Enable Clock for ADC2
+	ADC->CCR |= ADC_CCR_DMA_1;			// Enable DMA mode 2 = dual DMA
+	ADC->CCR |= ADC_CCR_MULTI_1 | ADC_CCR_MULTI_2; // ADC1 and ADC2
+	ADC1->CR2 |= (1UL << ADC_CR2_EXTEN_Pos);	// En. ext. trigger on rising e.
+	ADC1->CR2 |= (6UL << ADC_CR2_EXTSEL_Pos);	// Timer 2 TRGO event
+	ADC1->SQR3 |= (13UL << ADC_SQR3_SQ1_Pos);	// Input 13 = first conversion
+	ADC2->SQR3 |= (5UL << ADC_SQR3_SQ1_Pos);	// Input 5 = first conversion
+	__HAL_RCC_DMA2_CLK_ENABLE();		// Enable Clock for DMA2
+	DMA2_Stream4->CR &= ~DMA_SxCR_EN;	// Disable the DMA stream 4
+	while (DMA2_Stream4->CR & DMA_SxCR_EN) { ; }	// Wait for DMA to finish
+	DMA2->HIFCR |= DMA_HIFCR_CTCIF4;	// Clear transfer complete interrupt fl.
+	DMA2_Stream4->CR |= (0UL << DMA_SxCR_CHSEL_Pos);	// Select channel 0
+	DMA2_Stream4->CR |= DMA_SxCR_PL_1;		// Priority high
+	DMA2_Stream4->CR |= DMA_SxCR_MSIZE_1;	// Memory data size = 32 bit
+	DMA2_Stream4->CR |= DMA_SxCR_PSIZE_1;	// Peripheral data size = 32 bit
+	DMA2_Stream4->CR |= DMA_SxCR_MINC;	// Increment memory address pointer
+	DMA2_Stream4->CR |= DMA_SxCR_TCIE;	// Transfer complete interrupt enable
+	DMA2_Stream4->NDTR = ADC_NUMS;		// Number of data items to transfer
+	DMA2_Stream4->PAR = (uint32_t)&ADC->CDR;	// Peripheral register address
+	DMA2_Stream4->M0AR = (uint32_t)ADC_samples;	// Buffer memory loc. address
+}
+
+
+/** ***************************************************************************
+ * @brief Start DMA, ADC and timer
+ *
+ *****************************************************************************/
+void ADC1_IN13_ADC2_IN5_dual_start(void)
+{
+	DMA2_Stream4->CR |= DMA_SxCR_EN;	// Enable DMA
+	NVIC_ClearPendingIRQ(DMA2_Stream4_IRQn);	// Clear pending DMA interrupt
+	NVIC_EnableIRQ(DMA2_Stream4_IRQn);	// Enable DMA interrupt in the NVIC
+	ADC1->CR2 |= ADC_CR2_ADON;			// Enable ADC1
+	ADC2->CR2 |= ADC_CR2_ADON;			// Enable ADC2
+	TIM2->CR1 |= TIM_CR1_CEN;			// Enable timer
+}
+
+
+
+

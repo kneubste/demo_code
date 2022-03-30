@@ -58,4 +58,7 @@ void MEAS_sort_data(void);
 void ADC3_scan_init(void);
 void ADC3_scan_start(void);
 
+void ADC1_IN13_ADC2_IN5_dual_init(void);
+void ADC1_IN13_ADC2_IN5_dual_start(void);
+
 #endif
